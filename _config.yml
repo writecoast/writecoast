@@ -1,8 +1,6 @@
 name: "Mike's Projects"
 description: Mike's personal home page.
-host: 192.168.1.10
-port: 4029
-feedback_email: mike@proverb.net
+feedback_email: mike@writecoast.net
 sidebar_accordion: true
 disqus_shortname: writecoast
 google_analytics: UA-408430-5
