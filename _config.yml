@@ -1,0 +1,57 @@
+name: "Mike's Projects"
+description: Mike's personal home page.
+host: 192.168.1.10
+port: 4029
+feedback_email: mike@proverb.net
+sidebar_accordion: true
+disqus_shortname: writecoast
+google_analytics: UA-408430-5
+markdown: redcarpet
+show_audience_label: true
+output: web
+paginate: 15
+timezone: America/New_York
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-feed, jekyll-paginate]
+
+url: http://writecoast.net
+
+exclude:
+  - _drafts
+  - .idea
+  - _site
+
+
+# these are defaults that get applied to each page or post's frontmatter. leave as is.
+permalink: /:year/:month/:day/:title/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+
+sass:
+    sass_dir: _sass
+
+target: web
+
+
