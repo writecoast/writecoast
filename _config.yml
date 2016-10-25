@@ -5,7 +5,6 @@ port: 4029
 feedback_email: mike@writecoast.net
 sidebar_accordion: true
 disqus_shortname: writecoast
-google_analytics: UA-408430-5
 markdown: redcarpet
 show_audience_label: true
 output: web
