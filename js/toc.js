@@ -78,5 +78,9 @@
     }
 
     render[settings.showEffect]();
+	
+	
   };
+  
 })(jQuery);
+
